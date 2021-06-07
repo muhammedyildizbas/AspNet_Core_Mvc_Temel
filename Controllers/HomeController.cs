@@ -23,6 +23,13 @@ namespace AspNet_Core.Controllers
             return View(ktp);
         }
         
-      
+    public IActionResult Index7()
+        {
+            return View();
+        }
+        public IActionResult Index8()
+        {
+            return View();
+        }
     }
 }
