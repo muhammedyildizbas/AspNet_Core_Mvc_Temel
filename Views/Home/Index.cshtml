@@ -9,7 +9,30 @@
     <title>Index</title>
 </head>
 <body>
-    <div>Projemizin İlk Kontroler alanı</div>
-    <div style="background-color:#00ff21">MErhaba Mühendisler</div>
+
+    <div style="background-color:#0094ff">
+        @DateTime.Now.ToShortDateString()
+    </div>
+    <br />
+    <div style="background-color:#b6ff00">
+        @for (int i = 1; i <= 10; i++){
+            @i
+        }
+
+    </div>
+    <br />
+    <br />
+    <div style="background-color:#00ffff">
+        @{ 
+            var liste = new List<String>() { "Ankara", "Bursa", "Adana", "İzmir" };
+        }
+        @foreach(var li in liste)
+            {
+                @li <br />
+            }
+
+
+    </div>
+    
 </body>
 </html>
