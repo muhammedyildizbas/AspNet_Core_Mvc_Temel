@@ -1,0 +1,33 @@
+﻿@model List<AspNet_Core.Models.Kitap>
+@{ 
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Index1</title>
+</head>
+<body>
+    <h2>Merhaba Kitap Sayfasına Hoşgeldiniz</h2>
+    <br />
+    <br />
+    <table>
+        @foreach ( var k in Model)
+            {
+        <tr>
+            <td>
+            <td>@k.ID</td>
+            <td>@k.KitapAd</td>
+            <td>@k.Yazar</td>
+            <br />
+            </td>
+        </tr>
+            }
+    </table>
+</body>
+</html>
+
