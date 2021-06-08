@@ -1,38 +1,8 @@
-﻿@{ 
-    Layout = null;
-}
-<!DOCTYPE html>
-<html>
-<head>
+﻿@{
 
-    <meta name="viewport" content="width=device-width"/>
-    <title>Index</title>
-</head>
-<body>
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
-    <div style="background-color:#0094ff">
-        @DateTime.Now.ToShortDateString()
-    </div>
-    <br />
-    <div style="background-color:#b6ff00">
-        @for (int i = 1; i <= 10; i++){
-            @i
+
         }
-
-    </div>
-    <br />
-    <br />
-    <div style="background-color:#00ffff">
-        @{ 
-            var liste = new List<String>() { "Ankara", "Bursa", "Adana", "İzmir" };
-        }
-        @foreach(var li in liste)
-            {
-                @li <br />
-            }
-
-
-    </div>
-    
-</body>
-</html>
+<h2>Index </h2>

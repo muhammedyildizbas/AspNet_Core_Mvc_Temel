@@ -36,6 +36,5 @@ D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\AspNet_Core.pdb
 D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\AspNet_Core.genruntimeconfig.cache
 D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\AspNet_Core.csproj.CopyComplete
 D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index1.cshtml.g.cs
-D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index7.cshtml.g.cs
-D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index8.cshtml.g.cs
+D:\Githup\AspNet_Core\AspNet_Core\bin\Debug\netcoreapp3.1\libman.json
+D:\Githup\AspNet_Core\AspNet_Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

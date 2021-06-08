@@ -30,7 +30,8 @@ namespace AspNet_Core
             {
                 app.UseDeveloperExceptionPage();
             }
-         
+
+            app.UseStaticFiles();
            
             app.UseRouting();
 
